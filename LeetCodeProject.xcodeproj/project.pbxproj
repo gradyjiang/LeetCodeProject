@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		50463CE6206CCAF500D73B2D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50463CE5206CCAF500D73B2D /* main.cpp */; };
+		50463CEE206D264000D73B2D /* CMaxProfit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50463CEC206D264000D73B2D /* CMaxProfit.cpp */; };
+		50463D2B206E1E6300D73B2D /* CSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50463D29206E1E6300D73B2D /* CSolution.cpp */; };
+		50463D2E206E231100D73B2D /* CRotateArr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50463D2C206E231100D73B2D /* CRotateArr.cpp */; };
+		50463D31206E3B4E00D73B2D /* CDeleteNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50463D2F206E3B4E00D73B2D /* CDeleteNode.cpp */; };
+		507D36F02071BDD600B55A39 /* BinaryTreeSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 507D36EE2071BDD600B55A39 /* BinaryTreeSolution.cpp */; };
+		507D36F32071C98500B55A39 /* SingleLinkListSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 507D36F12071C98500B55A39 /* SingleLinkListSolution.cpp */; };
+		50DB710320730C9200304098 /* CStringSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DB710120730C9200304098 /* CStringSolution.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,21 @@
 /* Begin PBXFileReference section */
 		50463CE2206CCAF500D73B2D /* LeetCodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		50463CE5206CCAF500D73B2D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		50463CEC206D264000D73B2D /* CMaxProfit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CMaxProfit.cpp; sourceTree = "<group>"; };
+		50463CED206D264000D73B2D /* CMaxProfit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CMaxProfit.hpp; sourceTree = "<group>"; };
+		50463D29206E1E6300D73B2D /* CSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSolution.cpp; sourceTree = "<group>"; };
+		50463D2A206E1E6300D73B2D /* CSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CSolution.hpp; sourceTree = "<group>"; };
+		50463D2C206E231100D73B2D /* CRotateArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CRotateArr.cpp; sourceTree = "<group>"; };
+		50463D2D206E231100D73B2D /* CRotateArr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CRotateArr.hpp; sourceTree = "<group>"; };
+		50463D2F206E3B4E00D73B2D /* CDeleteNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CDeleteNode.cpp; sourceTree = "<group>"; };
+		50463D30206E3B4E00D73B2D /* CDeleteNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CDeleteNode.hpp; sourceTree = "<group>"; };
+		507D36EE2071BDD600B55A39 /* BinaryTreeSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeSolution.cpp; sourceTree = "<group>"; };
+		507D36EF2071BDD600B55A39 /* BinaryTreeSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeSolution.hpp; sourceTree = "<group>"; };
+		507D36F12071C98500B55A39 /* SingleLinkListSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SingleLinkListSolution.cpp; sourceTree = "<group>"; };
+		507D36F22071C98500B55A39 /* SingleLinkListSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingleLinkListSolution.hpp; sourceTree = "<group>"; };
+		507D36F52071CDE700B55A39 /* CStruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CStruct.hpp; sourceTree = "<group>"; };
+		50DB710120730C9200304098 /* CStringSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CStringSolution.cpp; sourceTree = "<group>"; };
+		50DB710220730C9200304098 /* CStringSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CStringSolution.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,21 @@
 			isa = PBXGroup;
 			children = (
 				50463CE5206CCAF500D73B2D /* main.cpp */,
+				50463CEC206D264000D73B2D /* CMaxProfit.cpp */,
+				50463CED206D264000D73B2D /* CMaxProfit.hpp */,
+				50463D29206E1E6300D73B2D /* CSolution.cpp */,
+				50463D2A206E1E6300D73B2D /* CSolution.hpp */,
+				50463D2C206E231100D73B2D /* CRotateArr.cpp */,
+				50463D2D206E231100D73B2D /* CRotateArr.hpp */,
+				50463D2F206E3B4E00D73B2D /* CDeleteNode.cpp */,
+				50463D30206E3B4E00D73B2D /* CDeleteNode.hpp */,
+				507D36EE2071BDD600B55A39 /* BinaryTreeSolution.cpp */,
+				507D36EF2071BDD600B55A39 /* BinaryTreeSolution.hpp */,
+				507D36F12071C98500B55A39 /* SingleLinkListSolution.cpp */,
+				507D36F22071C98500B55A39 /* SingleLinkListSolution.hpp */,
+				507D36F52071CDE700B55A39 /* CStruct.hpp */,
+				50DB710120730C9200304098 /* CStringSolution.cpp */,
+				50DB710220730C9200304098 /* CStringSolution.hpp */,
 			);
 			path = LeetCodeProject;
 			sourceTree = "<group>";
@@ -88,7 +125,7 @@
 		50463CDA206CCAF500D73B2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = JiangZhongjin;
 				TargetAttributes = {
 					50463CE1206CCAF500D73B2D = {
@@ -119,6 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50463D31206E3B4E00D73B2D /* CDeleteNode.cpp in Sources */,
+				50463D2B206E1E6300D73B2D /* CSolution.cpp in Sources */,
+				50463CEE206D264000D73B2D /* CMaxProfit.cpp in Sources */,
+				50DB710320730C9200304098 /* CStringSolution.cpp in Sources */,
+				507D36F02071BDD600B55A39 /* BinaryTreeSolution.cpp in Sources */,
+				50463D2E206E231100D73B2D /* CRotateArr.cpp in Sources */,
+				507D36F32071C98500B55A39 /* SingleLinkListSolution.cpp in Sources */,
 				50463CE6206CCAF500D73B2D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +184,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -147,6 +192,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -195,6 +241,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -202,6 +249,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

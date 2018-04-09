@@ -302,6 +302,28 @@ void testlevelOrderTree()
     }
 }
 
+void testSortedArrayToBST()
+{
+    //[-10,-3,0,5,9]
+    int arr[] = {-10,-3,0,5,9};
+    CBinaryTreeSolution bts;
+    std::vector<int> vec(arr, arr+5);
+    TreeNode *root = bts.sortedArrayToBST(vec);
+    std::vector<std::vector<int>> vecIntVec = bts.levelOrder(root);
+    
+    for (std::vector<std::vector<int>>::iterator it = vecIntVec.begin(); it != vecIntVec.end(); it++)
+    {
+        std::vector<int> intVec = *it;
+        
+        std::cout << " [ ";
+        for (std::vector<int>::iterator iter = intVec.begin(); iter != intVec.end(); iter++)
+        {
+            std::cout << *iter << " ,";
+        }
+        std::cout << " ] " << endl;
+    }
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
@@ -313,6 +335,7 @@ int main(int argc, const char * argv[]) {
     //testReverseInt();
     //testIsPalindrome();
     //testIsValidBST();
-    testlevelOrderTree();
+    //testlevelOrderTree();
+    testSortedArrayToBST();
     return 0;
 }

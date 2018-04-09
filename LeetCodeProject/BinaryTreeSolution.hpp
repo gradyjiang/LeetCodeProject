@@ -37,9 +37,13 @@ public:
     //数组建二叉树
     TreeNode *makeBinayTree(const std::vector<int> &intVec);
     
+    //将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树
+    TreeNode *sortedArrayToBST(std::vector<int>& nums);
+
 private:
     bool validateRange(TreeNode* root, int  min, int max);
     bool isEqualNode(TreeNode *tn1, TreeNode *tn2);
+    TreeNode *sortedArrayToBSTByIndex(std::vector<int> &nums, unsigned long begin, unsigned long end);
    
     //前序打印
     void printByPreOrder(TreeNode *root);

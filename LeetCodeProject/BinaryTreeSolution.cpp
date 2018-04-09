@@ -198,3 +198,46 @@ void CBinaryTreeSolution::printByPreOrder(TreeNode *root)
     
     //std::cout << std::endl;
 }
+
+//将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。
+//此题中，一个高度平衡二叉树是指一个二叉树每个节点的左右两个子树的高度差的绝对值不超过1。
+//给定有序数组: [-10,-3,0,5,9],
+//一种可行答案是：[0,-3,9,-10,null,5]，它可以表示成下面这个高度平衡二叉搜索树：
+TreeNode *CBinaryTreeSolution::sortedArrayToBST(std::vector<int> &nums)
+{
+    //这里利用二分查找，始终将数组分为两等分，以确定树的平衡
+    return sortedArrayToBSTByIndex(nums, 0, nums.size() - 1);
+}
+
+TreeNode *CBinaryTreeSolution::sortedArrayToBSTByIndex(std::vector<int> &nums, unsigned long begin, unsigned long end)
+{
+    if (nums.size() == 0)
+        return nullptr;
+    if (end < begin)
+        return nullptr;
+    
+    //本机测试unsigned long最大值也是18446744073709551615  unsigned long long的最大值：18446744073709551615
+    //这里仅存在理论上溢出的可能，实际中不可能有这么多元素
+    unsigned long middle = (end + begin)/2;
+    
+    TreeNode *node = new TreeNode(nums[middle]);
+    
+    if (middle == 0)
+    {
+        node->left = nullptr;
+        node->right = sortedArrayToBSTByIndex(nums, middle+1, end);
+    }
+    else if (middle == UINT_MAX)
+    {
+        node->left = sortedArrayToBSTByIndex(nums, begin, middle-1);
+        node->right = nullptr;
+    }
+    else
+    {
+        node->left = sortedArrayToBSTByIndex(nums, begin, middle-1);
+        node->right = sortedArrayToBSTByIndex(nums, middle+1, end);
+    }
+    
+    return node;
+}
+

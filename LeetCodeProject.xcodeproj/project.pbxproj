@@ -15,6 +15,7 @@
 		507D36F02071BDD600B55A39 /* BinaryTreeSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 507D36EE2071BDD600B55A39 /* BinaryTreeSolution.cpp */; };
 		507D36F32071C98500B55A39 /* SingleLinkListSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 507D36F12071C98500B55A39 /* SingleLinkListSolution.cpp */; };
 		50DB710320730C9200304098 /* CStringSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DB710120730C9200304098 /* CStringSolution.cpp */; };
+		50DBD11C207C52F700A60118 /* CString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DBD11A207C52F700A60118 /* CString.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,8 @@
 		507D36F52071CDE700B55A39 /* CStruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CStruct.hpp; sourceTree = "<group>"; };
 		50DB710120730C9200304098 /* CStringSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CStringSolution.cpp; sourceTree = "<group>"; };
 		50DB710220730C9200304098 /* CStringSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CStringSolution.hpp; sourceTree = "<group>"; };
+		50DBD11A207C52F700A60118 /* CString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CString.cpp; sourceTree = "<group>"; };
+		50DBD11B207C52F700A60118 /* CString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CString.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				507D36F52071CDE700B55A39 /* CStruct.hpp */,
 				50DB710120730C9200304098 /* CStringSolution.cpp */,
 				50DB710220730C9200304098 /* CStringSolution.hpp */,
+				50DBD11A207C52F700A60118 /* CString.cpp */,
+				50DBD11B207C52F700A60118 /* CString.hpp */,
 			);
 			path = LeetCodeProject;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				50463D2E206E231100D73B2D /* CRotateArr.cpp in Sources */,
 				507D36F32071C98500B55A39 /* SingleLinkListSolution.cpp in Sources */,
 				50463CE6206CCAF500D73B2D /* main.cpp in Sources */,
+				50DBD11C207C52F700A60118 /* CString.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,7 @@
 #include "SingleLinkListSolution.hpp"
 #include "CStringSolution.hpp"
 #include "BinaryTreeSolution.hpp"
+#include "CString.hpp"
 
 using namespace std;
 
@@ -324,9 +325,38 @@ void testSortedArrayToBST()
     }
 }
 
+void testCString()
+{
+    CString str("Hello World123");
+//    std::cout << str << std::endl;
+//    std::cin >> str;
+//    std::cout << str << std::endl;
+    // >> << 测试通过
+    CString str2("World Hello NI HAO");
+    CString str3 = str + str2;
+    std::cout << str3 << std::endl;
+    //加法通过
+    std::cout << str3[30] << std::endl;
+    //[] 通过
+    std::cout << (str == str3) << std::endl;
+    CString str4("Hello World123");
+    std::cout << (str != str4) << std::endl;
+    // == != 通过
+    CString str5(str2);
+    std::cout << str5 << std::endl;
+    std::cout << (str5 == str2) << std::endl;
+    //拷贝构造函数通过
+    CString str6 = str5.subString(15, 3);
+    std::cout << str6 << std::endl;
+    //subString OK
+    str2 += str;
+    std::cout << str2 << std::endl;
+    //+= OK
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    //std::cout << "Hello, World!\n";
     
     //testMaxProfit();
     //testRotateArr();
@@ -336,6 +366,7 @@ int main(int argc, const char * argv[]) {
     //testIsPalindrome();
     //testIsValidBST();
     //testlevelOrderTree();
-    testSortedArrayToBST();
+    //testSortedArrayToBST();
+    testCString();
     return 0;
 }

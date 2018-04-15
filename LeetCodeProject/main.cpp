@@ -354,6 +354,25 @@ void testCString()
     //+= OK
 }
 
+void testAddTwoNumber()
+{
+    ListNode *head1 = new ListNode(3);
+    ListNode *node1 = new ListNode(7);
+    head1->next = node1;
+    
+    ListNode *head2 = new ListNode(9);
+    ListNode *node2 = new ListNode(2);
+    head2->next = node2;
+    
+    SingleLinkListSolution sls;
+    ListNode *node = sls.addTwoNumbers(head1, head2);
+    while (node != nullptr) {
+        cout << node->val << " p: " << node<< endl;
+        node = node->next;
+    }
+    
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     //std::cout << "Hello, World!\n";
@@ -367,6 +386,7 @@ int main(int argc, const char * argv[]) {
     //testIsValidBST();
     //testlevelOrderTree();
     //testSortedArrayToBST();
-    testCString();
+    //testCString();
+    testAddTwoNumber();
     return 0;
 }

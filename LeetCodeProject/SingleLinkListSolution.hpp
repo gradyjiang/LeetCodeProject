@@ -30,6 +30,12 @@ public:
     
     //有环链表
     bool hasCycle(ListNode *head);
+    
+    //两数相加
+    ListNode *addTwoNumbers(ListNode* l1, ListNode* l2);
+    
+private:
+    ListNode *addTwoNumbersWithCarry(ListNode *l1, ListNode *l2, bool carry);
 };
 
 #endif /* SingleLinkListSolution_hpp */

@@ -16,6 +16,7 @@
 		507D36F32071C98500B55A39 /* SingleLinkListSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 507D36F12071C98500B55A39 /* SingleLinkListSolution.cpp */; };
 		50DB710320730C9200304098 /* CStringSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DB710120730C9200304098 /* CStringSolution.cpp */; };
 		50DBD11C207C52F700A60118 /* CString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DBD11A207C52F700A60118 /* CString.cpp */; };
+		50F09FCF208455EF0076D46F /* SortSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F09FCD208455EF0076D46F /* SortSolution.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		50DB710220730C9200304098 /* CStringSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CStringSolution.hpp; sourceTree = "<group>"; };
 		50DBD11A207C52F700A60118 /* CString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CString.cpp; sourceTree = "<group>"; };
 		50DBD11B207C52F700A60118 /* CString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CString.hpp; sourceTree = "<group>"; };
+		50F09FCD208455EF0076D46F /* SortSolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortSolution.cpp; sourceTree = "<group>"; };
+		50F09FCE208455EF0076D46F /* SortSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortSolution.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				50DB710220730C9200304098 /* CStringSolution.hpp */,
 				50DBD11A207C52F700A60118 /* CString.cpp */,
 				50DBD11B207C52F700A60118 /* CString.hpp */,
+				50F09FCD208455EF0076D46F /* SortSolution.cpp */,
+				50F09FCE208455EF0076D46F /* SortSolution.hpp */,
 			);
 			path = LeetCodeProject;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 				50463D2E206E231100D73B2D /* CRotateArr.cpp in Sources */,
 				507D36F32071C98500B55A39 /* SingleLinkListSolution.cpp in Sources */,
 				50463CE6206CCAF500D73B2D /* main.cpp in Sources */,
+				50F09FCF208455EF0076D46F /* SortSolution.cpp in Sources */,
 				50DBD11C207C52F700A60118 /* CString.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

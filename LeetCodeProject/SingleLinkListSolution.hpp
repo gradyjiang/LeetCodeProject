@@ -34,6 +34,9 @@ public:
     //两数相加
     ListNode *addTwoNumbers(ListNode* l1, ListNode* l2);
     
+    //找到两个单链表相交的起始节点
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
+    
 private:
     ListNode *addTwoNumbersWithCarry(ListNode *l1, ListNode *l2, bool carry);
 };

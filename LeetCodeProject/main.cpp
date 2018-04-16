@@ -370,13 +370,14 @@ void testAddTwoNumber()
         cout << node->val << " p: " << node<< endl;
         node = node->next;
     }
-    
 }
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     //std::cout << "Hello, World!\n";
     
+    //有些函数没有在main()中测试，是因为直接在leetcode中执行的测试
     //testMaxProfit();
     //testRotateArr();
     //testDeletNode();
